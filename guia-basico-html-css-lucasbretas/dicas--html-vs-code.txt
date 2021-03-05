@@ -1,0 +1,82 @@
+
+! - Atalho para criar estrutura html com apenas um comando, ao criar seu index.html no vs code e na primeira linha a ser digitada insira um simples ponto de exclamação !
+
+-----------------------------------------------------------------------------------------------------
+
+Segue como dica também a indentação de código, que além de ser uma das mais importantes boas práticas ela também facilita muito o entendimento, abaixo um exemplo de código indentado:
+
+<section>
+    <div>
+        <h1>Seu Título Vai Aqui!</h1>
+    </div>
+</section>
+
+* Ao pressionar a tecla TAB o editor adiciona um recuo a esquerda de qualquer elemento.
+* Ao pressionar as teclas Shift+TAB o editor volta um recuo a esquerda.
+
+-----------------------------------------------------------------------------------------------------
+
+Duplicar Linhas de conteúdo - podemos replicar linhas de conteúdo html, posicionando o cursor ao final do comando a ser replicado e apertando as teclas alt+shift+setaprabaixo exemplo:
+
+<li>Item de Lista</li>| <-- cursor deve estar aqui e aperte as teclas alt+shift+setaprabaixo 
+<li>Item de Lista</li> <-- código replicado
+<li>Item de Lista</li> <-- código replicado
+<li>Item de Lista</li> <-- código replicado
+<li>Item de Lista</li> <-- código replicado
+
+-----------------------------------------------------------------------------------------------------
+
+ ** Estrutura Básica de html Semântico **
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Conteúdo de cabeçalho do site com geralmente titulos, navbar e banners -->
+    <header>
+        <nav>A Navibar do Seu Site</nav>
+    </header>
+    <!-- A Tag main é a que deve possuir o conteúdo principal do seu site -->
+    <main>
+        <!-- A Tag section serve para dividir o seu conteúdo em seções de forma semãntica -->
+        <section>
+            <!-- A Tag article define uma área de artigo dentro da seção  -->
+            <article>
+                seu texto, seus conteudos, parágrafos e etc.......seu texto, seus conteudos, parágrafos e etc.......seu texto, seus conteudos, parágrafos e etc.......seu texto, seus conteudos, parágrafos e etc.......seu texto, seus conteudos, parágrafos e etc.......
+            </article>
+        </section>
+    </main>
+    <!-- Tag de conteúdo referente ao rodapé do site  -->
+    <footer>
+        Rodapé do seu site e informações de copyright etc.
+    </footer>
+    <!-- Tag de script geralmente ao final do código html, podendo ser escrito no próprio html, sendo mais recomendado a utilização de um arquivo separado. -->
+    <script>
+        var txt = "Olá Dev";
+    </script>
+</body>
+</html>
+
+
+-----------------------------------------------------------------------------------------------------
+
+* É Recomendado utilizar arquivos de estilo css e script separados do código HTML, além de ser uma boa prática deixa o seu código html mais limpo e de fácil entendimento.
+
+** Algumas Configurações e Extensões do Vs que muito nos ajudam na hora de desenvolver **
+
+* Liveserver -> cria um localhost para você poder acompanhar no navegador as mudanças na aplicação em tempo real, fica ainda melhor se você habilitar o salvamento automático no vs.
+
+* Emmet Quebrar Linha com Abreviação -> Facilita a digitação de código e adiciona funcionalidades de atalhos para comandos.
+
+* Nodejs exec -> Possibilita a execução de código javascript no terminal do vs-code, é preciso ter o node instalado na máquina. F8 Executa o código.
+
+----------------------------------------------------------------------------------------------
+
+
+
+
